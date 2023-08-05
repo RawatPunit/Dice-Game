@@ -3,9 +3,9 @@ body{
     background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    height: 100vh;
+    height: auto;
     position: relative;
-    overflow: auto;
+    overflow: visible;
     color: #fff;
 }
 .dice{
@@ -23,6 +23,9 @@ body{
 .img-dice{
     border-radius: 24px;
     box-shadow: 0px 15px 15px 2px #33333359;
+    max-width: 50%;
+    width: -webkit-fill-available;
+    align-content: center;
 }
 button{
     margin-top: 40px;
@@ -33,6 +36,8 @@ button{
     padding: 10px 20px;
     border: 0;
     font-size: 22px;
+    /* overflow-wrap: break-word; */
+    overflow-y: visible;
     text-transform: uppercase;
     cursor: pointer;
 }
