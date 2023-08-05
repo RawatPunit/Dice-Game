@@ -14,11 +14,11 @@ function dicegame(){
     img2.setAttribute("src",dicelocation2)
 
     if(randomDice> randomDice2){
-        document.querySelectorz("h1").innerHTML ="🏆 Player 1 wins ! 🏆"
+        document.querySelector("h1").innerHTML ="🏆 Player 1 wins ! 🏆"
     }else if(randomDice2> randomDice){
-        document.querySelectorz("h1").innerHTML ="🏆 Player 2 wins ! 🏆"
+        document.querySelector("h1").innerHTML ="🏆 Player 2 wins ! 🏆"
     }else {
-        document.querySelectorz("h1").innerHTML ="🏆 Match Draw 🏆"
+        document.querySelector("h1").innerHTML ="🏆 Match Draw 🏆"
     }
 
     //button text change
